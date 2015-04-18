@@ -36,15 +36,17 @@ body {
  }
 
  .search {
-   margin: 10px 0 10px 100px;
+   margin: 0px 0 0px 100px;
    background:url('/images/search.gif');
    background-repeat: no-repeat;
  }
 
+ /* skeleteon crew code begins here*/
+
  .content {
   background-color: white;
   border-radius: 0 0 1em 1em;
-  margin: -25px 159.5px 0 159.5px;
+  margin: -25px 150px 0 129px;
 }
 
  p {
