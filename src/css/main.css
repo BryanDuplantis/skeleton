@@ -1,106 +1,202 @@
 body {
-  background-color: #78cbd1;
-  margin: -10px 0 0 0;
+ background-color: #78cbd1;
+ margin: -10px 0 0 0;
 }
-
 .topcontainer2 {
-  background-color: white;
-  border-radius: 1em 1em 0 0;
+ background-color: white;
+ border-radius: 1em 1em 0 0;
 }
-
 .topcontainer1 {
-  background-color: #d6f1f0;
+ background-color: #d6f1f0;
 }
 
 #sign {
-  width: 60%;
-  margin: 20% 10% 0 0;
+ width: 60%;
+ margin: 20% 10% 0 0;
 }
-
 .savings {
-  margin-top: -50px;
+ margin-top: -50px;
 }
-
 .logo {
-  margin-top: 7.5%;
+ margin-top: 7.5%;
 }
-
 .pink li {
-  padding: 5px 0 0 0;
-  display: inline;
- }
-
+ padding: 5px 0 0 0;
+ display: inline;
+}
 .pink {
-   background-color: #f4cbd3;
-   width: 100%;
- }
-
- .search {
-   margin: 10px 0 10px 100px;
-   background:url('/images/search.gif');
-   background-repeat: no-repeat;
- }
-
- .content {
-  background-color: white;
-  border-radius: 0 0 1em 1em;
-  margin: -25px 159.5px 0 159.5px;
+  height: 35px;
+  color: #6e1849;
+  font-weight: bolder;
+  background-color: #f4cbd3;
+  width: 100%;
+  padding-top: 5px;
+} 
+.search {
+  color: #f4cbd3;
+  border-color: pink;
+  border-radius: 35px;
+  width: 100px;
+  margin: 0px 0 0px 100px;
+  background:url('/images/search.gif');
+  background-repeat: no-repeat;
 }
 
- p {
-   display: inline;
-   margin: 0 0;
- }
 
- .shop {
-   margin: 0 0 0 25px;
- }
+ /* skeleteon crew code begins here*/ 
 
- .babymid {
-   margin: 10px 0 10px 0;
- }
 
- .babybot {
-   margin: 0px 0 0 0;
- }
-
- .dot {
-   margin: 50px 0 0 0;
- }
-
- .social {
-   margin: 30px 0 30px 0;
- }
-
- .tree {
-   margin: -25px 0 0 0;
- }
-
- .footer {
-   margin: 10px 0 10px 10px;
-  }
-
-  .button {
-  border-radius: 2em 2em 2em 2em;
-  color: white;
+.content-container {
+ background-color: white;
+ border-radius: 0 0 1em 1em;
+ margin: -25px 120px 0 115px;
+} 
+p {
+  display: inline;
+  margin: 0 0;
 }
-
+.social {
+  margin: 30px 0 30px 0;
+}
+.button {
+ border-radius: 2em 2em 2em 2em;
+ color: white;
+}
 .button:first-child {
-  background-color: #78cbd0;
-  border-color: #78cbd0;
+ background-color: #78cbd0;
+ border-color: #78cbd0;
 }
-
 .button:nth-child(2) {
-  background-color: #8db639;
-  border-color: #8db639;
+ background-color: #8db639;
+ border-color: #8db639;
 }
-
 .button:nth-child(3) {
-  background-color: #6f30ac;
-  border-color: #6f30ac;
+ background-color: #6f30ac;
+ border-color: #6f30ac;
+}
+.button:nth-child(4) {
+ background-color: #e916bc;
+ :white;
+ border-color: #e916bc;
+}
+table, th, td {
+  border: 0px solid black;
+  background-color: #fff;
+  margin-top: -25px;
 }
 
-.button:nth-child(4) {
-  background-color: #e916bc;
-  border-color: #e916bc;
+  /* form here */
+
+.search-button {
+  border-radius: 35px;
+  color: rgb(123, 173, 34);
+}
+
+.condition-section {
+  margin-left: 130px;
+  color: rgb(123, 173, 34);
+  font-weight: bolder;
+}
+
+.size-section {
+  color: rgb(123, 173, 34);
+  font-weight: bolder;
+  margin-left: 50px;
+}
+
+.size-btns {
+  color: rgb(123, 173, 34);
+  font-weight: bolder;
+}
+
+.radio-selectors {
+  margin-left: 50px;
+  color: rgb(123, 173, 34);
+  font-weight: bolder;
+}
+ 
+.form-row {
+  border-radius: 35px;
+  background-color: rgb(229,255,206);
+  width: 30%;
+  margin-left: 3%;
+}
+
+.form-row ul li {
+  list-style-type: none;
+  color: rgb(123, 173, 34);
+  font-weight: bolder;
+}
+
+.form {
+  padding-left: 20px;
+  color: rgb(123, 173, 34);
+}
+
+.search-button {
+  border-radius: 35px;
+  color: rgb(123, 173, 34);
+}
+
+hr {
+  color: rgb(123, 173, 34);
+}
+
+p {
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#exampleRecipientInput {
+  vertical-align: center;
+}
+
+/* Right side results starts here */
+
+.product-table {
+  border: 0px solid black;
+  background-color: #fff;
+  margin-top: -25px;
+  margin-left: -50px;
+
+}
+
+ .divbox1 {
+   width: 100px;
+   height: 100px;
+   padding: 0px;
+   border: 25px solid white;
+   background-color: rgb(229,255,206);
+} 
+
+.results-div {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+/*footer css*/
+
+footer {
+  padding-top: 10px;
+  margin-right: -10px;
+}
+
+footer ul li {
+   display: inline;
+   list-style-type: none;
+   text-align: center;
+   margin-right: 10px;
+ }
+
+footer li, footer a {
+  color: rgb(204,238,236);
+}
+
+.left-side {
+  background-color: rgb(229,255,206);
+  min-width: 275px;
+  padding: 10px;
+  border-radius: 35px;
 }
